@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: Arial;
+
+}
+
+.form_blok {
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+
+.forma {
+    display: block;
+
+
+
+}
+
+.zagolovochek {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.polya {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.polya:focus {
+    border-color: orange;
+    outline: none;
+}
+
+
+
+
+.knopka {
+    width: 100%;
+    padding: 12px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.knopka:hover {
+    background: darkorange;
+}
+
+
+
+.ssilka {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.ssilka a {
+    color: orange;
+    text-decoration: none;
+}
+
+.ssilka a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.oshibka {
+    background: #ffcccc;
+    color: red;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+.good {
+    background: #ccffcc;
+    color: green;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
